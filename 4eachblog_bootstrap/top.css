@@ -1,0 +1,47 @@
+.clock {
+    color: orange;
+}
+
+.title_main {
+    border-left: 4px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 5px;
+    font-size: 27px;
+    font-weight: blod;
+    margin-top: 20px;
+}
+
+.gray_box {
+    margin: auto 0;
+    background-color:lightgray;
+}
+
+.gray_box .photo {
+    margin-top: -5px;
+}
+
+.gray_box .photo a:link {
+    color: darkslategray;
+}
+
+.gray_box .photo a:visited {
+    color: darkslategray;
+}
+
+.gray_box .photo a:hover {
+    color: #ff0000;
+}
+
+.sidebar_li {
+    list-style: none;
+    margin-left: -20px;
+    margin-bottom: -15p;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+}

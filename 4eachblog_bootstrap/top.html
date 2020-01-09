@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+      <title>4eachblog</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="top.css">
+
+  </head>
+  <body>
+
+      <div class="container_fluid">
+          <!--ロゴをつくる-->
+          <div class="row">
+            <!--"my-2"は"m"をmargin、"y"を上下ということ。(上下に0.5remずつあけるということ)-->
+            <!--"mx-2"は"m"をmargin、"x"を左右ということ。(左右に0.5remずつあけるということ)-->
+            <div class="col-6 col-md-3 my-2 mx-2">
+                <img src="./img/4eachblog_logo.jpg" class="img-fluid">  
+            </div>
+          </div>
+          <!--ナビゲーションをつくる "navbar-dark"で文字を灰色にできる。"bg-dark"でナビゲーションバーを暗い灰色にできる-->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+              <hr class="d-md-none">
+              <!--ハンバーガーメニューをスマホ用画面の場合のみ表示させる(md以上には表示させない)-->
+              <!--data-toggle="collapse"はメニューの開閉を意味する"toggleは同じ操作によって、機能や状態のon/offを切り替える仕組みのこと"-->
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#globalmenu">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+                
+              <div class="collapse navbar-collapse" id="globalmenu">
+              <!--リストで項目を設定するには、"navbar-nav"というclassを記述する。-->
+                <ul class="navbar-nav ">
+                    <!--liタグに"nav-item"というclass、aタグに"nav-link"というclassをつくる-->
+                    <li class="nav-item pr-4"><a href="●" class="nav-link">トップ</a></li>
+                    <li class="nav-item pr-4"><a href="●" class="nav-link">プロフィール</a></li>
+                    <li class="nav-item pr-4"><a href="●" class="nav-link">4eachについて</a></li>
+                    <li class="nav-item pr-4"><a href="●" class="nav-link">その他</a></li>
+                    <li class="nav-item pr-4"><a href="●" class="nav-link">お問い合わせ</a></li>
+                </ul>
+              </div>
+          </nav>
+          <!--ここからメイン-->
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12 col-md-8">
+                      <div class="row">
+                          <div class="col-12">
+                              <h2 class="title_main">プログラミングに役立つ書籍</h2>
+                              <div class="mt-3">2020年1月15日</div>
+                              <img src="./img/bookstore.jpg" class="img-fluid mt-3 mb-3">
+                              <p>4eachはインターノウスが提供するオンラインでプログラミングが勉強できるイーラーニングシステムです。</p>
+                              <p>記事中身</p>
+                          </div>
+                      </div>
+                      <div class="row gray_box">
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic1.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">ドメイン取得方法</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic2.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">快適な職場環境</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic3.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">Linuxの基礎</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic4.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">マーケティング入門</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic5.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">アクティブラーニング</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic6.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">CSSの効率的な勉強法</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic7.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">リーダブルコードとは</a></p>
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="./img/pic8.jpg" class="img-fluid py-3">
+                            <p class="text-center photo"><a href="●">HTML5の可能性</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <!--ここから右側のカラム-->
+                  <div class="col-12 col-md-4">
+                      <h3 class="title_sidebar pc">人気の記事</h3>
+                      <nav class="navbar navbar-expand-md navbar_color naavbar-light px-0 py-1">
+                          <button class="navbar-toggler sp w-100" data-toggle="collapse" data-target="#menu1">
+                              <span class="text-black font-weight-hold height: 300px;">人気の記事</span><span class="float-right">+</span>
+                          </button>
+                          <div class="collapse navbar-collapse margin" id="menu1">
+                            <ul>
+                                <li class="sidebar_li"><a href="●" class="nav-link">PHPオススメ本</a></li>
+                                <li class="sidebar_li"><a href="●" class="nav-link">PHP MyAdminの使い方</a></li>
+                                <li class="sidebar_li"><a href="●" class="nav-link">今人気のエディタTop5</a></li>
+                                <li class="sidebar_li"><a href="●" class="nav-link">HTMLの基礎</a></li>
+                            </ul>
+                          </div>
+                      </nav>
+                  </div>
+              </div>
+          </div>
+          <!--ここからフッター-->
+          <footer class="bg-dark text-secondary">
+            copyright © 2019 InterNous.inc.All rights reserved.
+          </footer>
+      </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  </body>
+</html> 
